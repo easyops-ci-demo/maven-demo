@@ -3,18 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>maven-poc</artifactId>
+	<artifactId>maven-demo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>maven-poc</name>
+	<name>maven-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
 		<groupId>com.xkcoding</groupId>
 		<artifactId>spring-boot-demo</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
+		<relativePath>./parent_pom.xml</relativePath>
 	</parent>
 
 	<properties>
@@ -42,7 +42,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>maven-poc</finalName>
+		<finalName>maven-demo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
